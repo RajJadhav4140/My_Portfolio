@@ -133,6 +133,36 @@ span {
     margin-top: 10%;
 }
 
+
+
+
+/* // second page */
+
+.section-2{
+    height: 100vh;
+    width: 100vw;
+    background-color:red;
+}
+
+.about-me{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    font-size: 2em;
+}
+.img-2 img{
+    height: 420px;
+    width: 35%;
+    padding: 30px;
+    margin-top: -15px;
+    border-radius: 15%;
+}
+
+
+
+/* // .frist-container media query */
+
 @media screen and (max-width:767px) {
     .menu {
         display: inline-block;
@@ -147,6 +177,7 @@ span {
         display: none;
     }
 }
+
 
 @media screen and (max-width:767px) {
     .home {
