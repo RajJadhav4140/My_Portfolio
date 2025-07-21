@@ -5,7 +5,7 @@
 }
 
 .frist-container {
-    position: fixed;
+    position: absolute;
     width: 100%;
     padding: 8px 10%;
     background: rgba(22, 22, 22, 0.945);
@@ -131,6 +131,8 @@ span {
     border-radius: 50%;
     height: 380px;
     margin-top: 10%;
+    box-shadow: 10px 10px 500px #860303;
+    border: black 2px solid ;
 }
 
 
@@ -138,27 +140,41 @@ span {
 
 /* // second page */
 
-.section-2{
+.section-2 {
     height: 100vh;
     width: 100vw;
-    background-color:red;
+    background-color: red;
 }
 
-.about-me{
+.page-name {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 60px;
-    font-size: 2em;
-}
-.img-2 img{
-    height: 420px;
-    width: 35%;
-    padding: 30px;
-    margin-top: -15px;
-    border-radius: 15%;
+    font-size: 1.8em;
+    padding-top: 20px;
+
 }
 
+.about-info {
+    display: flex;
+}
+
+.img-2 img {
+    height: 350px;
+    margin: 120px 0px;
+    margin-left: 50px;
+    border-radius: 30%;
+}
+
+.About {
+    color: white;;
+}
+
+.about-info p {
+    font-size: 1.2em;
+    margin-top: 200px;
+    padding-left: 30px;
+}
 
 
 /* // .frist-container media query */
