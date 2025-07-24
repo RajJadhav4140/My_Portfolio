@@ -77,10 +77,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 50px;
+  padding: 50px 80px;
   height: 100vh;
   background: white;
-  gap: 32px;
+  gap: 20px;
 }
 
 .home-info {
@@ -142,46 +142,49 @@
 
 .section-2 {
   height: 100vh;
-  width: 100%;
-  background-image: url(./image/page\ 2\ background.jfif);
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
+  padding: 150px 90px;
+  background-color: #f5f5f5 ;
 }
 
-.about-info {
+.about-info{
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  gap: 40px;
-  background-color: rgba(255, 255, 255, 0.5);
-  padding: 200px;
+  gap: 10px;
 }
 
-.img-2 img {
-  width: 300px;
+.img-2{
+  margin-left: 40px;
+}
+
+.img-2 img{
+  width: 90%;
+  max-width: 400px;
   height: auto;
-  border-radius: 15%;
-  object-fit: cover;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(199, 30, 30, 0.1);
 }
 
 .about-text {
-  max-width: 600px;
-}
-
-.about-text h2.about {
-  font-size: 2em;
-  font-weight: 700;
-  color: #222;
-  margin-bottom: 15px;
-}
-
-.about-text p {
-  font-size: 1.2em;
-  line-height: 1.6;
+  max-width: 680px;
   color: #333;
+  margin-right: 40px;
 }
+
+.about-text h2{
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.about-text p{
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+ 
+
+ 
 
 /* // .first-container media queries */
 
@@ -236,28 +239,21 @@
   .section-2 {
     padding: 20px;
   }
+
+
   .about-info {
-    display: flex;
     flex-direction: column;
-    align-items: center;
     text-align: center;
+    align-items: center;
   }
 
+  .about-text{
+    max-width: 100%;
+    padding: 0 10px;
+  }
   .img-2 img {
     width: 100%;
+    max-width: 90%;
     height: auto;
-    max-width: 300px;
-    margin-bottom: 20px;
-  }
-
-  .about-text h2.about {
-    font-size: 24px;
-    margin-bottom: 15px;
-  }
-
-  .about-text p {
-    font-size: 16px;
-    line-height: 1.6;
-    padding: 0 10px;
   }
 }
